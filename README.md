@@ -1,2 +1,2 @@
 # chadhokama
-[www.chadhokama.com](www.chadhokama.com)
+[www.chadhokama.com](http://chadhokama.com/)
