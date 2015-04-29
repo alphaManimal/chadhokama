@@ -1,0 +1,50 @@
+function new_image = roberts(old_image)
+
+    old_image = grayscale(old_image);
+    totalrow = size(old_image,1);
+    totalcol = size(old_image,2);
+    new_image = zeros(totalrow,totalcol,3,'uint8');
+    
+    for row = 1:(totalrow-1)
+        for col = 1:(totalcol-1)
+            P1 = old_image(row,col,:);
+            P2 = old_image(row,col+1,:);
+            P3 = old_image(row+1,col,:);
+            P4 = old_image(row+1,col+1,:);
+            new_image(row,col,:) = abs(P3 - P2) + abs(P1 - P4);
+        end
+    end    
+end
+
+
+
+function new_image = grayscale(old_image, red_perc, green_perc, blue_perc)
+
+if nargin() ~= 1 && nargin() ~= 4
+    error('Incorrect number of parameters input.\nThe correct number of parameters are 1 or 4.\n');
+    return;
+end
+
+new_image = zeros(size(old_image,1), size(old_image,2), 3, 'uint8');
+
+if nargin() == 1
+    for row = 1:size(old_image,1)
+        for col = 1:size(old_image,2)
+            new_image(row,col,:) = sum(old_image(row,col,:))/3;
+        end
+    end
+else
+    if red_perc + green_perc + blue_perc ~= 100
+        error('The sum of the color percentages must be equal to 100');
+        return
+    end
+    for row = 1:size(old_image,1)
+        for col = 1:size(old_image,2)
+            new_image(row,col,:) = old_image(row,col,1).*(red_perc./100) + ...
+                                   old_image(row,col,2).*(green_perc./100) + ...
+                                   old_image(row,col,3).*(blue_perc./100);
+        end
+    end
+    
+end
+

@@ -1,0 +1,409 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+ max-width: 900px;
+ min-width: 900px;
+ width: 900px;
+ padding: 12px 20px 12px 20px;
+ color: #000;
+ background: #fff;
+}
+
+#name {
+	font-variant: small-caps;
+	font-size: 30px;
+	margin-top: 1px;
+	margin-bottom: 15px;
+	letter-spacing: 0.5px;
+}
+#title {
+	font-size: 15px;
+	margin-top: 4px;
+	margin-bottom: 15px;
+	letter-spacing: 0.065em;
+}
+
+/* Typeface and Text Size */
+body {
+ font-family: Verdana, Helvetica, Arial, sans-serif;
+ font-size: 11px;
+ line-height: 1.3em
+ }
+
+p { margin: 0px 0px 12px 0px; }
+h1 {
+	/*font-family:  "Times New Roman", Times, serif;*/
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+ font-size: 20px;
+ font-weight: bold;
+ margin: 0 0 15px 0;
+}
+
+h6 { 
+ font-size: 1.5em;
+ font-weight: normal;
+ font-variant: small-caps;
+ letter-spacing: 1px;
+ color: #777;
+ line-height: 0.60em;
+ margin: 0px 0px 10px 0px;
+}
+h2 {
+	/*font-family:  "Times New Roman", Times, serif;*/
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+ font-size: 13px;
+ font-weight: normal;
+ /*margin: 0 0 15px 0;*/
+}
+
+h3 {
+	font-size:11px;
+	font-weight:bold;
+	/*color:#666;*/
+	margin: 0 0 5px 0;
+}
+
+h4, h5 { font-size: 1em; font-weight: bold; margin: 0px; }
+
+/* Hyperlinks */
+a, a:visited, a:hover { color: #999; text-decoration: none; }
+a.nav, a.nav:visited { color: #888; font-weight: normal; }
+a:hover, a.nav:hover { color: #33f; }
+
+
+#info {
+width: 215px;
+float: left;
+background: #fff;
+margin-right:40px;
+
+}
+
+#contact {
+	float: right;
+	text-align:right;
+}
+
+#navigate {
+	float:right;
+	margin-top:150px;
+		
+}
+#navigate h1 {
+	/*font-family:  "Times New Roman", Times, serif;*/
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+ font-size: 16px;
+ font-weight: bold;
+ margin: 0px 0 5px 0;
+ text-align:right;
+}
+
+#navigate h2 {
+	font-size:12px;
+ text-align:right;
+ margin-top:-8px;
+ margin-bottom:9px;
+ 
+}
+
+#main { 
+float: left;
+width: 600px;
+margin-top:26px;
+}
+
+#maintable { 
+float: left;
+width: 580px;
+margin-top:0px;
+margin-bottom:20px;
+}
+
+#plainpage { 
+float: left;
+width: 600px;
+margin-top:26px;
+}
+
+#plainpagetable { 
+float: left;
+width: 850px;
+margin-top:26px;
+}
+
+#plainpage h1 {
+ font-size: 16px;
+ line-height:17px;
+ font-weight: normal;
+ font-variant: small-caps;
+ font-family: Verdana, Helvetica, Arial, sans-serif;
+ /*margin: 1px 2px 3px 4px;*/
+ border-bottom: 1px solid #888;
+}
+
+#about {
+	margin-left: 0px; 
+	margin-top:10px;
+	float:left;
+	width: 310px;
+}
+
+#bio {
+	margin-left: 0px; 
+	margin-top:4px;
+	float:left;
+	width: 500px;
+}
+
+#about_imgs {
+	margin-top:10px;
+	width: 280px;
+	float:right;
+	margin-right:0px;
+}
+
+#about_imgs img {
+	border:1px solid #999;	
+}
+
+#about_imgs a:hover img {
+ border: 1px solid #33f;
+}
+
+#project_group {
+	margin-top:10px;
+	margin-bottom:10px;
+	float:left;
+}
+
+#project_group_first {
+	margin-top:-32px;
+}
+
+
+#project_group h1 {
+ font-size: 16px;
+ line-height:17px;
+ font-weight: normal;
+ font-variant: small-caps;
+ font-family: Verdana, Helvetica, Arial, sans-serif;
+ /*margin: 1px 2px 3px 4px;*/
+ border-bottom: 1px solid #888;
+}
+
+
+#project {
+	float:left;
+}
+
+#project_text {
+	float:right;
+	width:435px;
+	margin-left:20px;
+}
+
+#project_text_related {
+	color:#888;
+	margin:inherit;
+}
+
+#project_text a.nav {
+	color:#888;
+}
+
+#project_text a.nav:hover {
+	color: #33f;
+	}
+
+#project p {
+	margin-left:20px;
+}
+
+#project_img {
+	float:left;
+	width:125px;
+	margin-left:20px;
+	margin-bottom: 8px;
+}
+
+#project img {
+	border:1px solid #999;	
+}
+
+#pub {
+	float:left;
+	width:580px;
+	margin-left:20px;
+}
+
+#cv a.nav {
+	color:#888;
+}
+
+#cv a.nav:hover {
+	color: #33f; 
+	}
+
+#pub a.nav {
+	color:#888;
+}
+
+#pub a.nav:hover {
+	color: #33f; 
+	}
+	
+#about a.nav {
+	color:#888;
+}
+
+#about a.nav:hover {
+	color: #33f; 
+	}
+
+#bio a.nav {
+	color:#888;
+}
+
+#bio a.nav:hover {
+	color: #33f; 
+	}
+
+#bio a.nav2 {
+font-size: 9px;
+	color:#888;
+}
+
+#bio a.nav2:hover {
+font-size: 9px;
+	color: #33f; 
+	}
+
+
+
+#bio_img  {
+	margin-top:10px;
+	margin-right:60px;
+	float:right;
+}
+
+table#papers {
+    /*background-color:#FFFFFF;
+    border: solid #000 3px;*/
+    width: 850px;
+}
+table#papers td {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    /*border: solid #000 1px;*/
+}
+.data {
+    color: #000000;
+    text-align: left;
+/*    background-color: #CCCCCC;*/
+}
+.toprow {
+   /* font-style: italic;*/
+    /*text-align: left;*/
+   /* background-color: #FFFFCC;*/
+font-size: 16px;
+ line-height:17px;
+ font-weight: normal;
+ font-variant: small-caps;
+ font-family: Verdana, Helvetica, Arial, sans-serif;
+ border-bottom: 1px solid #888;
+}
+.leftcol {
+    font-weight: bold;
+    text-align: right;
+    width: 135px;
+    /*background-color: #CCCCCC;*/
+}
+
+.midcol {
+    text-align: center;
+    width: 100px;
+    /*background-color: #CCCCCC;*/
+}
+
+.leftcolnb {
+    /*font-weight: bold;*/
+    text-align: right;
+    width: 120px;
+    /*background-color: #CCCCCC;*/
+}
+
+
+#table_paper {
+	float:left;
+	/*width:580px;
+	margin-left:20px;*/
+}
+
+#table_paper a.nav {
+	color:#000000;
+}
+
+#table_paper a.nav:hover {
+	color: #33f; 
+	}
+
+
+table#whowhatwhen {
+    /*background-color:#FFFFFF;
+    border: solid #000 3px;*/
+    width: 850px;
+}
+table#whowhatwhen td {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 16px;
+ line-height:17px;
+ font-weight: normal;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+ border-bottom: 1px solid #888;
+    /*border: solid #000 1px;*/
+}
+
+.leftcol {
+    font-weight: bold;
+    text-align: right;
+    width: 135px;
+    /*background-color: #CCCCCC;*/
+}
+
+.midcol {
+    text-align: left;
+    width: 100px;
+    /*background-color: #CCCCCC;*/
+}
+
+
+
+/*LaTeX stuff*/
+.tex sub, .latex sub, .latex sup {
+  text-transform: uppercase;
+}
+
+.tex sub, .latex sub {
+  vertical-align: -0.5ex;
+  margin-left: -0.1667em;
+  margin-right: -0.125em;
+}
+
+.tex, .latex, .tex sub, .latex sub {
+  font-size: 1em;
+}
+
+.latex sup {
+  font-size: 0.85em;
+  vertical-align: 0.15em;
+  margin-left: -0.36em;
+  margin-right: -0.15em;
+}
+
+#procsketch{
+z-index: 0;
+position: absolute;
+}
